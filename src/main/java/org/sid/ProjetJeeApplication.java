@@ -16,6 +16,8 @@ public class ProjetJeeApplication implements CommandLineRunner {
     private ICinemaInitService cinemaInitService;
     @Autowired
     private RepositoryRestConfiguration restConfiguration;
+    //  s
+    int a;
 
     public static void main(String[] args) {
         SpringApplication.run(ProjetJeeApplication.class, args);
